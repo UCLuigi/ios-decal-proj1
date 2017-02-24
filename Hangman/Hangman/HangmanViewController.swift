@@ -10,6 +10,14 @@ import UIKit
 
 class HangmanViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var phraseLabel: UILabel!
+    
+    @IBOutlet weak var incorrectGuessesLabel: UILabel!
+
+    @IBOutlet weak var currentGuessLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -34,5 +42,12 @@ class HangmanViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func letterButtonPressed(_ sender: UIButton) {
+    }
 
+    @IBAction func guessButtonPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func startOverButtonPressed(_ sender: UIButton) {
+    }
 }
