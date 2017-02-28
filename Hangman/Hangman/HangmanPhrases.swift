@@ -24,4 +24,32 @@ class HangmanPhrases {
         return phrases.object(at: index) as! String
     }
     
+    // Convert phrase to a blank phrase with underscores
+    func convertToBlanks(str: String) -> String {
+        var blankPhrase: String = ""
+        for character in str.characters {
+            if character == " " {
+                blankPhrase += "  "
+            } else {
+                blankPhrase += "_ "
+            }
+        }
+        return blankPhrase
+    }
+    
+    // Replaces underscores with letters in appropriate position
+    func replaceBlankWithLetter(phrase: String, blanks: inout String, letter: String) -> String {
+        
+        var iter: Int = 0
+        for character in phrase.characters {
+            if (character == Character(letter)) {
+                let start = blanks.index(blanks.startIndex, offsetBy: iter)
+                let end = blanks.index(blanks.startIndex, offsetBy: iter + 1)
+                blanks = blanks.replacingCharacters(in: start..<end, with: letter)
+            }
+            iter += 2
+        }
+        return blanks
+    }
+    
 }

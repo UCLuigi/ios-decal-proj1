@@ -29,214 +29,266 @@
                                     <action selector="startOverButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="TRb-Mx-2A1"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tZK-eL-qXa">
-                                <rect key="frame" x="16" y="66" width="343" height="163"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hangman1" translatesAutoresizingMaskIntoConstraints="NO" id="tZK-eL-qXa">
+                                <rect key="frame" x="101" y="57" width="172" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAM-OK-nG7">
-                                <rect key="frame" x="16" y="403" width="27" height="30"/>
+                                <rect key="frame" x="16" y="393" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="A"/>
+                                <state key="normal" title="A">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="d00-WU-9Gl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQL-NV-e8w">
-                                <rect key="frame" x="16" y="460" width="27" height="30"/>
+                                <rect key="frame" x="16" y="450" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="H"/>
+                                <state key="normal" title="H">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="uYl-VA-CJm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5O-Yg-Bht">
-                                <rect key="frame" x="66" y="460" width="27" height="30"/>
+                                <rect key="frame" x="66" y="450" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="I"/>
+                                <state key="normal" title="I">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="zSd-fF-Ku6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfp-jB-PtK">
-                                <rect key="frame" x="115" y="460" width="27" height="30"/>
+                                <rect key="frame" x="115" y="450" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="J"/>
+                                <state key="normal" title="J">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="f4U-MO-y78"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ho7-Tq-6mh">
-                                <rect key="frame" x="170" y="460" width="27" height="30"/>
+                                <rect key="frame" x="170" y="450" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="K"/>
+                                <state key="normal" title="K">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="DjR-B0-M6u"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIy-a4-D2W">
-                                <rect key="frame" x="222" y="460" width="27" height="30"/>
+                                <rect key="frame" x="222" y="450" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="L"/>
+                                <state key="normal" title="L">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="xmB-jP-hPc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rn7-fJ-50Z">
-                                <rect key="frame" x="278" y="460" width="27" height="30"/>
+                                <rect key="frame" x="278" y="450" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="M"/>
+                                <state key="normal" title="M">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="rJW-C8-2W8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wT-Kz-J2N">
-                                <rect key="frame" x="332" y="460" width="27" height="30"/>
+                                <rect key="frame" x="332" y="450" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="N"/>
+                                <state key="normal" title="N">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="qD9-TC-vIa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYe-5W-ULb">
-                                <rect key="frame" x="16" y="515" width="27" height="30"/>
+                                <rect key="frame" x="16" y="505" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="O"/>
+                                <state key="normal" title="O">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="dpY-mr-46f"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3BF-gD-7cw">
-                                <rect key="frame" x="66" y="515" width="27" height="30"/>
+                                <rect key="frame" x="66" y="505" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="P"/>
+                                <state key="normal" title="P">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="Jyt-d3-YBF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKn-wu-XIz">
-                                <rect key="frame" x="66" y="562" width="27" height="30"/>
+                                <rect key="frame" x="66" y="559" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="V"/>
+                                <state key="normal" title="V">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="adb-CN-8f9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85T-3e-uYS">
-                                <rect key="frame" x="115" y="562" width="27" height="30"/>
+                                <rect key="frame" x="115" y="559" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="W"/>
+                                <state key="normal" title="W">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="1Mf-O2-prG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lT7-lC-1qA">
-                                <rect key="frame" x="170" y="562" width="27" height="30"/>
+                                <rect key="frame" x="170" y="559" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="X"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="oaS-gw-xBR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ei3-ur-wr8">
-                                <rect key="frame" x="222" y="562" width="27" height="30"/>
+                                <rect key="frame" x="222" y="559" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Y"/>
+                                <state key="normal" title="Y">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="ym2-eh-zI1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARb-lR-RrZ">
-                                <rect key="frame" x="278" y="562" width="27" height="30"/>
+                                <rect key="frame" x="278" y="559" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Z"/>
+                                <state key="normal" title="Z">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="dG9-k7-nhu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ss-66-NME">
-                                <rect key="frame" x="115" y="515" width="27" height="30"/>
+                                <rect key="frame" x="115" y="505" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Q"/>
+                                <state key="normal" title="Q">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="2Zg-gW-YOR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WeO-ce-IYq">
-                                <rect key="frame" x="170" y="515" width="27" height="30"/>
+                                <rect key="frame" x="170" y="505" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="R"/>
+                                <state key="normal" title="R">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="XIN-4f-gmY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1X-st-Ot1">
-                                <rect key="frame" x="222" y="515" width="27" height="30"/>
+                                <rect key="frame" x="222" y="505" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="S"/>
+                                <state key="normal" title="S">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="ilv-jW-VHB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7yl-Li-cs0">
-                                <rect key="frame" x="278" y="515" width="27" height="30"/>
+                                <rect key="frame" x="278" y="505" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="T"/>
+                                <state key="normal" title="T">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="93o-dA-zfv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7R-Ku-s0G">
-                                <rect key="frame" x="332" y="515" width="27" height="30"/>
+                                <rect key="frame" x="332" y="505" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="U"/>
+                                <state key="normal" title="U">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="CSJ-Tr-xZ3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUZ-E9-uCN">
-                                <rect key="frame" x="66" y="403" width="27" height="30"/>
+                                <rect key="frame" x="66" y="393" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="B"/>
+                                <state key="normal" title="B">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="g2E-kJ-vjz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFj-he-3C9">
-                                <rect key="frame" x="115" y="403" width="27" height="30"/>
+                                <rect key="frame" x="115" y="393" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="C"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="9Xm-3R-2mF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52X-UN-qO6">
-                                <rect key="frame" x="170" y="403" width="27" height="30"/>
+                                <rect key="frame" x="170" y="393" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="D"/>
+                                <state key="normal" title="D">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="gjo-gR-4Z3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gtw-4z-pzC">
-                                <rect key="frame" x="222" y="403" width="27" height="30"/>
+                                <rect key="frame" x="222" y="393" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="E"/>
+                                <state key="normal" title="E">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="pf6-wG-YxL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="73L-9u-md5">
-                                <rect key="frame" x="278" y="403" width="27" height="30"/>
+                                <rect key="frame" x="278" y="393" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="F"/>
+                                <state key="normal" title="F">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="sbj-Dj-YxI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTT-qa-d91">
-                                <rect key="frame" x="332" y="403" width="27" height="30"/>
+                                <rect key="frame" x="332" y="393" width="27" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="G"/>
+                                <state key="normal" title="G">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
                                     <action selector="letterButtonPressed:" destination="33m-bG-32Y" eventType="touchUpInside" id="7Zb-TW-zzt"/>
                                 </connections>
@@ -250,34 +302,32 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Incorrect Guesses:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ef-hZ-MLp">
-                                <rect key="frame" x="47" y="299" width="152" height="21"/>
+                                <rect key="frame" x="47" y="299" width="182" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Current Guess:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIS-3u-Put">
-                                <rect key="frame" x="72" y="345" width="127" height="21"/>
+                                <rect key="frame" x="72" y="345" width="157" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PHRASE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adP-QK-pvt">
-                                <rect key="frame" x="16" y="253" width="343" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PHRASE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="adP-QK-pvt">
+                                <rect key="frame" x="16" y="245" width="343" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.86901475882955692" blue="0.52354204042485775" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="currentGuess" destination="hIS-3u-Put" id="tbu-Ig-lHa"/>
                         <outlet property="currentGuessLabel" destination="hIS-3u-Put" id="j7E-HO-18b"/>
                         <outlet property="imageView" destination="tZK-eL-qXa" id="IJX-Du-WOM"/>
-                        <outlet property="incorrectGuesses" destination="3Ef-hZ-MLp" id="Xp6-AJ-fO1"/>
                         <outlet property="incorrectGuessesLabel" destination="3Ef-hZ-MLp" id="n2H-tm-8jY"/>
                         <outlet property="phraseLabel" destination="adP-QK-pvt" id="XVV-bu-4Ak"/>
                     </connections>
@@ -287,4 +337,7 @@
             <point key="canvasLocation" x="652" y="-133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="hangman1" width="200" height="200"/>
+    </resources>
 </document>
