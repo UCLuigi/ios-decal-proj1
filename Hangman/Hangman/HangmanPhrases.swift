@@ -39,7 +39,6 @@ class HangmanPhrases {
     
     // Replaces underscores with letters in appropriate position
     func replaceBlankWithLetter(phrase: String, blanks: inout String, letter: String) -> String {
-        
         var iter: Int = 0
         for character in phrase.characters {
             if (character == Character(letter)) {
