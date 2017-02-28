@@ -147,18 +147,6 @@ class HangmanViewController: UIViewController {
     }
     
     @IBAction func startOverButtonPressed(_ sender: UIButton) {
-        phrase = hangmanPhrases.getRandomPhrase()
-        print(phrase)
-        blankPhrase = hangmanPhrases.convertToBlanks(str: phrase)
-        print(blankPhrase)
-        phraseLabel.text = blankPhrase
-        incorrectGuessesLabel.text = "Incorrect Guesses:  0"
-        incorrectNum = 0
-        currGuess = ""
-        currentGuessLabel.text = "Current Guess:  "
-        imageView.image = #imageLiteral(resourceName: "hangman1")
-        for button in buttons {
-            button.titleLabel?.textColor = UIColor.white
-        }
+        self.startOver()
     }
 }
