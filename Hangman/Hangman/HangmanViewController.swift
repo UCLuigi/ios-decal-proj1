@@ -86,8 +86,9 @@ class HangmanViewController: UIViewController {
                 blankPhrase = hangmanPhrases.replaceBlankWithLetter(phrase: phrase, blanks: &blankPhrase, letter: currGuess)
                 phraseLabel.text = blankPhrase
                 print(blankPhrase)
-                
-                buttons.append(currGuessButton!)
+                if (!buttons.contains(currGuessButton!)) {
+                    buttons.append(currGuessButton!)
+                }
                 currGuessButton?.titleLabel?.textColor = UIColor.green
                 currentGuessLabel.text = "Current Guess:  "
                 if phrase.replacingOccurrences(of: " ", with: "") == blankPhrase.replacingOccurrences(of: " ", with: "") {
@@ -99,7 +100,9 @@ class HangmanViewController: UIViewController {
                 currGuess = ""
             } else {
                 currGuessButton?.titleLabel?.textColor = UIColor.red
-                buttons.append(currGuessButton!)
+                if (!buttons.contains(currGuessButton!)) {
+                    buttons.append(currGuessButton!)
+                }
                 incorrectNum += 1
                 switch incorrectNum {
                     case 1:
@@ -122,7 +125,7 @@ class HangmanViewController: UIViewController {
                 currentGuessLabel.text = "Current Guess:  "
                 if (incorrectNum == 6) {
                     //throw lose alert
-                    let alert = UIAlertController(title: "You Lose", message: "What was that? Try again kid.", preferredStyle: UIAlertControllerStyle.alert)
+                    let alert = UIAlertController(title: "You Lose", message: "What was that? Try again kid. Phrase was: " + phrase, preferredStyle: UIAlertControllerStyle.alert)
                     alert.addAction(UIAlertAction(title: "Start Over", style: UIAlertActionStyle.default, handler: {action in self.startOver()}))
                     self.present(alert, animated: true, completion: nil)
                 }
